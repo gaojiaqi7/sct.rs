@@ -12,5 +12,5 @@ categories = ["network-programming", "cryptography"]
 exclude = ["/admin/"]
 
 [dependencies]
-ring = { git = "https://github.com/jyao1/ring.git", branch = "uefi_support", default-features = false, features = ["alloc"] }
+ring = { git = "https://github.com/gaojiaqi7/ring.git", branch = "uefi_support", default-features = false, features = ["alloc"] }
 untrusted = "0.7.0"
